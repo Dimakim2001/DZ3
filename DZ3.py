@@ -37,6 +37,27 @@
 # print(mult_pairs(mylist))
 
 
+# Задайте список из вещественных чисел. Напишите программу, которая найдёт разницу между максимальным и минимальным значением дробной части элементов.
+
+# from random import uniform
+
+# def get_real_nums (n, frst, last):
+#     return [round(uniform(frst,last), 2) for i in range(n)]
+
+# def find_diff(num):
+#     nums = [round(x - int(x), 2) for x in (num)]
+#     return max(nums) - min(nums)
+
+# n = 5
+# frst = 1
+# last = 10
+# num = get_real_nums(n, frst, last)
+
+# print (num)
+# print(find_diff(num))
+
+
+
 # Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 
 # n = int(input('Введите число: '))
